@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+/* default css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+img{
+  max-width: 100%;
+}
+
+.wrapper.bg-dark {
+  background: #F0FFF0 !important;
+  height: 630px;
+  margin-bottom: 40px;
+}
+
+/* navbar css */
+
+.navbar {
+  padding-top: 20px;
+  margin-bottom: 80px;
+}
+
+.navbar-brand img{
+  width: 200px;
+}
+
+.nav-item {
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: #333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #21B573 !important;
+}
+
+.nav-item .btn {
+  color: #fff;
+  background: #21B573;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 50px;
+}
+
+
+/* hero area css */
+.hero__content {
+  margin-top: 40px;
+}
+.hero__content p {
+  font-size: 18px;
+  color: red;
+  margin-bottom: 17px;
+}
+
+.hero__content h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.hero__content h2 span {
+  color: #21B573;
+}
+
+.hero__content h6 {
+  color: #898C88;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.hero__content .btn {
+  background: #21B573;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+
+
+.hero-content img {
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+}
+
+/* box css */
+.box-icon {
+  width: 60px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+
+
+.single-box-item {
+  background: #F0FFF0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.single-box-item h5 {
+  color: #333;
+  margin-top: 10px;
+}
+
+.single-box-item h5 span {
+  font-size: 15px;
+  display: block;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.catagories-box {
+  margin-bottom: 100px;
+}
+.single-box-item:hover {
+  box-shadow: 3px 4px 13px #e3e3e3;
+  background: #fff;
+  transition: .3s;
+}
+
+
+/* card css */
+.section-title {
+  font-size: 40px;
+  margin-bottom: 70px;
+  font-weight: 600;
+  color: #333333e3;
+}
+.card {
+  padding: 20px;
+  border: 0;
+  box-shadow: 3px 4px 13px #e3e3e3;
+  border-radius: 15px;
+}
+.card-body {
+  padding: 0;
+  padding-top: 25px;
+}
+
+
+.card-link.btn {
+  background: #21B573;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding: 6px 30px;
+  border-radius: 50px;
+}
+.card-info {
+  float: left;
+  font-size: 15px;
+  color: #333333;
+  margin-top: 20px;
+}
+.fa-calendar-minus {
+  margin-right: 4px;
+}
+.fa-user-friends{
+  margin-right: 4px;
+}
+.card-info.ml-10 {
+  margin-left: 38px;
+}
+/* team carosel CSS */
+
+.Testimonial .section-title {
+  margin-top: 80px;
+  color: #000;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 200px;
+}
+
+.single-team-item {
+  padding: 30px;
+  text-align: center;}
+
+.single-team-item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0 25px;
+}
+.single-team-item h4 span {
+  display: block;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: normal;
+  color: #888;
+  margin-top: 6px;
+}
+.single-team-item p {
+  margin-left: 30px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.7;
+}
+.single-team-item {
+  text-align: center;
+  margin: 30px auto;
+}
+/*==================================
+        *Footer Area CSS*
+===================================*/
+.footer-area {
+  background: #202020;
+  color: #fff;
+  padding-top: 60px;
+  margin-top: 54px;
+  padding-bottom: 30px;
+}
+.footer-heading h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-content p {
+  font-size: 16px;
+  font-family: lato;
+
+}
+
+a.footer-btn{
+    background: #58ba2b;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0;
+  margin-top: 25px;
+    width: 140px;
+    height: 45px;
+    text-align: center;
+    line-height: 31px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+a.footer-btn:hover {
+  background: #fff;
+  color: #58ba2b;
+}
+.footer-menu ul li a {
+  color: #fff;
+}
+.footer-menu ul li a:hover{
+  color: #58ba2b;
+}
+
+.footer-menu ul li a .fa-caret-right {
+  margin-right: 6px;
+  font-size: 12px;
+}
+.footer-menu ul li {
+  margin-bottom: 3px;
+}
+.footer-menu ul li {
+  margin-bottom: 3px;
+  list-style: none;
+}
+.footer-border {
+  border-top: 1px solid #aeaeae45;
+  padding-bottom: 40px;
+}
+
+.Copyright {
+  padding-top: 50px;
+}
